@@ -6,6 +6,8 @@ const availableTime = 5 * 1000; // 60 seconds in milliseconds
 let bombTimer;
 let remainingTime = availableTime;
 
+defuseButton.addEventListener('click', defuse);
+
 init();
 
 function defuse() {
